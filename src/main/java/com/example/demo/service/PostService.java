@@ -1,6 +1,6 @@
 package com.example.demo.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.model.Post;
@@ -10,7 +10,7 @@ import com.example.demo.repository.PostRepository;
 public class PostService {
     private final PostRepository postRepository;
 
-    @Autowired
+    // @Autowired
     public PostService(PostRepository postRepository) {
         this.postRepository = postRepository;
     }
